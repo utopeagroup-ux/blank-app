@@ -1,0 +1,25 @@
+{
+  "photography": {
+    "non_commercial": {
+      "weekday": {"hourly": 500, "daily": 3800, "ot": 800, "min_hours": 3, "full_day": 8},
+      "weekend_holiday": {"hourly": 800, "daily": 5600, "ot": 1050, "min_hours": 4, "full_day": 8}
+    },
+    "commercial": {
+      "weekday": {"hourly": 1200, "daily": 9000, "ot": 1500, "min_hours": 4, "full_day": 8},
+      "weekend_holiday": {"hourly": 1800, "daily": 12500, "ot": 2050, "min_hours": 4, "full_day": 8}
+    },
+    "site_visit": 150
+  },
+  "videography": {
+    "pre_set": {
+      "weekday": {"hourly": 600, "ot": 800},
+      "weekend_holiday": {"hourly": 800, "ot": 1000}
+    },
+    "commercial": {
+      "weekday": {"hourly": 1800, "daily": 15000, "ot": 2000, "min_hours": 4, "full_day": 9},
+      "weekend_holiday": {"hourly": 2500, "daily": 22000, "ot": 2750, "min_hours": 4, "full_day": 9}
+    },
+    "site_visit": 150
+  }
+  // ... (include other rental types as needed)
+}
